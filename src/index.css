@@ -1,0 +1,114 @@
+@font-face {
+  font-family: yasai;
+  src: url("./../public/FuzzyBubbles-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: yasai,Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h3,h6{
+  margin: 1%;
+  color: black;
+  text-align: center;
+}
+
+
+
+p{
+  font-size: x-small;
+}
+
+input{
+  display: block;
+  width: 30%;
+  margin:1% auto;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:6px solid rgba(21, 241, 102, 0.874);
+}
+
+
+.about_img{
+  display: block;
+  margin: auto;
+}
+
+.get{
+  display: block;
+  margin: auto;
+}
+
+.formulary{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulary button{
+    width: fit-content;
+    margin: auto;
+}
+
+.options{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 1%;
+  top: 30%;
+}
+
+.options button{
+      background-color: black;
+      color: white;
+      border-radius: 20px;
+      padding: 4px;
+      cursor: pointer;
+}
+
+.actor_options_buttons{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      /* centrar el contenerdor principal */
+      margin: auto;
+      width: 50%;
+}
+.actor_options_buttons button{
+      border-radius: 5px;
+      padding: 1%;
+      margin: 1%;
+      background-color: rgb(255, 255, 9);
+}
+
+.listado{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: 2px solid rgba(21, 241, 102, 0.874);
+  margin: 2%;
+  border-radius: 20px;
+}
+
+.iconoItem{
+  position: absolute;
+  top:6px;
+  left:6px;
+  width: 25px;
+}

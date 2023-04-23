@@ -1,0 +1,28 @@
+.about{
+    width: 100%;
+}
+
+.about_section{
+    width: 40%;
+    margin:4% auto;
+    /* background-color: rgba(117, 117, 239, 0.932); */
+    border-radius:50%;
+}
+
+.about_img{
+    width: 20%;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+@media screen and (max-width:798px) {
+    .about_section{
+        width: 100%;
+    }
+    .galery img{
+        width: 50%;
+    }
+}
